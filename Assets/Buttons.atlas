@@ -1,0 +1,13 @@
+
+Buttons.png
+size: 512,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+newGame
+  rotate: false
+  xy: 2, 2
+  size: 300, 50
+  orig: 300, 50
+  offset: 0, 0
+  index: -1

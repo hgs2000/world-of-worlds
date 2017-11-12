@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: bae3ba5df7d3670498d8af20ce08bd16
+timeCreated: 1510434710
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Millennium
+  fontNames:
+  - Millennium
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 264a2c67dfef1b34aa8672bc1966c562, type: 3}
+  - {fileID: 12800000, guid: 19928bdd400b59d43af37e6de30b536f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

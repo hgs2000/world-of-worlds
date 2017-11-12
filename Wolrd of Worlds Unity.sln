@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolrd of Worlds Unity", "Wolrd of Worlds Unity.csproj", "{168890D4-65D0-5267-70E8-2354E12ACF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolrd of Worlds Unity.Editor", "Wolrd of Worlds Unity.Editor.csproj", "{428FB32E-07D6-280B-F0FE-21997ED2682E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168890D4-65D0-5267-70E8-2354E12ACF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168890D4-65D0-5267-70E8-2354E12ACF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168890D4-65D0-5267-70E8-2354E12ACF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168890D4-65D0-5267-70E8-2354E12ACF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428FB32E-07D6-280B-F0FE-21997ED2682E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428FB32E-07D6-280B-F0FE-21997ED2682E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428FB32E-07D6-280B-F0FE-21997ED2682E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428FB32E-07D6-280B-F0FE-21997ED2682E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
