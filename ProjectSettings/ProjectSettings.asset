@@ -647,7 +647,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: ea79bc2e-edc2-4da8-9248-22cf2d18f196
-  projectName: Wolrd of Worlds Unity
+  projectName: Wolrd of Worlds
   organizationId: nothemi
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

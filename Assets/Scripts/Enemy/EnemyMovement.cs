@@ -14,7 +14,6 @@ public class EnemyMovement : MonoBehaviour {
     public float fovAngle = 90f;
     public bool canSeePlayer;
     public bool waiting;
-    public Transform viewer;
     public GameObject player;
     public Quaternion currentView;
 
@@ -29,33 +28,12 @@ public class EnemyMovement : MonoBehaviour {
     }
 
     void Update() {
-        float z = viewer.rotation.z;
 
         if (!waiting) {
             rBody.MovePosition(rBody.position + vetor * Time.deltaTime);
 
             executionTime += Time.deltaTime;
-            switch (ranNum) {
-                case 1:
-                    vetor.Set(Vector2.up.x, Vector2.up.y);
-                    z = 180f;
-                    break;
-                case 2:
-                    vetor.Set(Vector2.down.x, Vector2.down.y);
-                    z = 0f;
-                    break;
-                case 3:
-                    vetor.Set(Vector2.right.x, Vector2.right.y);
-                    z = 270f;
-                    break;
-                case 4:
-                    vetor.Set(Vector2.left.x, Vector2.left.y);
-                    z = 90f;
-                    break;
-            }
-            viewer.rotation = new Quaternion(0, 0, z, 0);
-            Debug.Log("Valor Z: " + z + ". Valor Z do viewer: " + viewer.rotation.z);
-
+            
             if (vetor != Vector2.zero) {
                 anim.SetBool("isWalking", true);
                 anim.SetFloat("inputX", vetor.x);
@@ -72,12 +50,23 @@ public class EnemyMovement : MonoBehaviour {
                 executionTime = 0;
             }
         }
+        Debug.DrawRay(transform.position, player.transform.position - transform.position);
     }
 
     IEnumerator AtEase() {
         waiting = true;
         yield return new WaitForSeconds(2);
         waiting = false;
+    }
+
+    bool searchPlayer() {
+
+
+        //if (Physics2D.Raycast())
+        return true;
+
+        return false;
+
     }
 
     void OnCollisionEnter2D(Collision2D col) {

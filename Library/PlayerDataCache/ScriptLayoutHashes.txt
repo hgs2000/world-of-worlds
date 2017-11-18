@@ -12,6 +12,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+fc78b1899b98a218838dabbdae98062b Assembly-CSharp.dll:.CameraFollow
 76b67c157fc78f887e635d573c3b4839 Assembly-CSharp.dll:Tiled2Unity.GPUInstancing
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:DynamicLight2D.interface_touch2
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -110,9 +111,8 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 fab3f48bb6484a76cde2b81e3201be7e Assembly-CSharp.dll:Tiled2Unity.TileObject
 1ac45e65362b8990ca8bc05364d4581e Assembly-CSharp.dll:Tiled2Unity.ImportBehaviour
-fc78b1899b98a218838dabbdae98062b Assembly-CSharp.dll:.CameraFollow
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
-fc78b1899b98a218838dabbdae98062b Assembly-CSharp.dll:.LightFollow
+5771810ccfd559d287449dc88e3ddb7d Assembly-CSharp.dll:.LightFollow
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Menu
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -159,4 +159,6 @@ d290070ecf091336e70150a7db25d112 Assembly-CSharp.dll:Tiled2Unity.ObjectLayer
 b03e5ed3210ce3528381769f28cbac81 Assembly-UnityScript.dll:.fpsClass
 91e28fb9eac18bd1ed283673ab0bccef Assembly-CSharp.dll:DynamicLight2D.DynamicLight
 329bcbf88b3c0197d230f5b9ceb88333 Assembly-CSharp.dll:Tiled2Unity.TmxObject
-697c730a31f7d2453f7c3667c3daeca3 Assembly-CSharp.dll:.EnemyMovement
+ef14603d5e6e2c3f2870171d806b74e4 Assembly-CSharp.dll:.EnemyMovement
+ebd1e3c9c845f626730a8b8943124fc4 Assembly-CSharp.dll:.SoundManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerInfo
